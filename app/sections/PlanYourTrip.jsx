@@ -12,7 +12,7 @@ const PlanYourTrip = () => {
         <p className="text-white text-center text-lg font-light">
           Ready to create your own story on the road? We provide you with
           resources to plan your road trip effectively. From travel tips and
-          destination guides to road safety essentials, we'are here to ensure
+          destination guides to road safety essentials, we`are here to ensure
           your journey is as smooth as the asphalt beneath your wheels.
         </p>
         <div className="flex flex-col sm:flex-col md:flex-row xl:flex-row gap-8">
