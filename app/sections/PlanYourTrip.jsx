@@ -6,11 +6,11 @@ const PlanYourTrip = () => {
   return (
     <section
       id="plan-your-trip"
-      className="w-full h-fit max-container px-8 md:px-60 bg-black-background py-20"
+      className="w-full h-fit max-container px-6 md:px-20 bg-black-background py-20"
     >
       <div className="flex flex-col justify-center items-center gap-9">
-        <h2 className="text-white text-5xl text-center font-montserrat">Plan Your Own Road Adventure</h2>
-        <p className="text-white text-center text-lg font-light">
+        <h2 className="text-white text-4xl md:text-5xl text-center font-montserrat">Plan Your Own Road Adventure</h2>
+        <p className="text-white text-center text-lg font-light px-20">
           Ready to create your own story on the road? We provide you with
           resources to plan your road trip effectively. From travel tips and
           destination guides to road safety essentials, we'are here to ensure

@@ -18,7 +18,7 @@ const quickLinks = [
 
 const Footer = () => {
   return (
-    <section className="w-full flex flex-col max-container px-20 pt-8 bg-black-background gap-8">
+    <section className="w-full flex flex-col max-container px-10 md:px-20 pt-8 bg-black-background gap-8">
       <div className="w-full flex flex-col sm:flex-row gap-10 items-start justify-between">
         <div className="flex flex-col sm:flex-row sm:gap-40 gap-40 items-start flex-wrap min-w-[300px]">
           <Image src={logo} alt="logo" height={80} />

@@ -5,10 +5,10 @@ const ShareYourStory = () => {
   return (
     <section
       id="shere-your-story"
-      className="w-full max-container flex justify-center items-center px-20 bg-black-background py-20"
+      className="w-full max-container flex justify-center items-center px-6 md:px-20 bg-black-background py-20"
     >
       <div className="flex flex-col justify-center items-center gap-9">
-        <h2 className="text-white text-5xl text-center font-montserrat">Share Your Road Tale</h2>
+        <h2 className="text-white text-4xl md:text-5xl text-center font-montserrat">Share Your Road Tale</h2>
         <div className="flex flex-wrap justify-center xl:gap-5 gap-10">
           <TestimonialCard
             image={user1}
