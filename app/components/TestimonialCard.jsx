@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const TestimonialCard = (props) => {
   const { image, name, text } = props;
@@ -6,7 +6,12 @@ const TestimonialCard = (props) => {
     <div className="flex flex-col w-full md:w-[368px] h-full md:h-[260px] p-2 md:p-8 gap-3 xl:gap-5">
       <div className="flex flex-col xl:flex-row justify-start items-center gap-3 xl:gap-5">
         <div className="w-20 h-20 rounded-full flex justify-center items-center overflow-hidden">
-          <Image src={image} alt="user photo" fill />
+          <Image
+            src={image}
+            alt="user photo"
+            style={{
+              maxWidth: "100%",
+            }} />
         </div>
         <h3 className="text-xl text-white font-montserrat font-semibold">
           {name}

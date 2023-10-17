@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { Hero } from "./sections";
 import Discover from "./sections/Discover";
 import PlanYourTrip from "./sections/PlanYourTrip";
