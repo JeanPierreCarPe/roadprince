@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 import {logo} from "../../public/assets"
 const navlinks = [
     {label: "Home", href: "/"},
@@ -13,7 +13,7 @@ const Nav = () => {
     <header className="px-6 md:px-8 xl:px-20 py-2 h-[64px] fixed top-0 z-10 w-full bg-black-background">
         <nav className="flex justify-between items-center max-container">
             <a href="/">
-                <Image src={logo} alt="logo" className="" height={50} />
+                <Image src={logo} alt="logo" className="" height={45} width={200} />
             </a>
             <ul className="flex-1 flex justify-end items-center gap-16 max-lg:hidden">
                 {navlinks.map(item => (

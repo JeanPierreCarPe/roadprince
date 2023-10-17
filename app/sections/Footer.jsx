@@ -5,7 +5,7 @@ import {
   logo,
   twitterLogo,
 } from "@/public/assets";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import SocialMediaButton from "../components/SocialMediaButton";
 
 const quickLinks = [
@@ -21,7 +21,7 @@ const Footer = () => {
     <section className="w-full flex flex-col max-container px-10 md:px-20 pt-8 bg-black-background gap-8">
       <div className="w-full flex flex-col sm:flex-row gap-10 items-start justify-between">
         <div className="flex flex-col sm:flex-row sm:gap-40 gap-40 items-start flex-wrap min-w-[300px]">
-          <Image src={logo} alt="logo" height={80} />
+          <Image src={logo} alt="logo" height={80} width={300} />
           <ul className="flex flex-col gap-7 min-w-[150px]">
             <h4 className="text-white text-base">Quick links</h4>
             {quickLinks.map((item) => (
